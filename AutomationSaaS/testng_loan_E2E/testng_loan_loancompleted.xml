@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.loan.loancompleted.TC_001_LoanCompleted_MoveLoanToCompleted" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

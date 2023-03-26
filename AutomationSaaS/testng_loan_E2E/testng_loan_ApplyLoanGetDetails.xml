@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test1">
+		<parameter name="value" value="Yes"/>
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_001_BorrowerOnboarding_IndividualBorrowerOnboarding" />
+			<class name="com.automationsaas.test.borrower.borrowerapproval.TC_001_BorrowerApproval_ApproveBorrowerAdmin" />
+			<class name="com.automationsaas.test.configuration.configuresettings.TC_001_ConfigureSettings_EnableDisableShowLoanRepaymentDetailsWhileOnboarding"/>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_003_BorrowerOnboarding_ApplyLoan_ForExistingBorrower" />
+			<class name="com.automationsaas.test.loan.loanoverview.TC_003_LoanOverview_ValidateLoanOverviewFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.loanoverview.TC_002_LoanOverview_ValidateLoanFromAdmin" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test2">
+		<parameter name="value" value="No"/>
+		<classes>
+			<class	name="com.automationsaas.test.configuration.configuresettings.TC_001_ConfigureSettings_EnableDisableShowLoanRepaymentDetailsWhileOnboarding"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

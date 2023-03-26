@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_002_BorrowerOnboarding_CompanyBorrowerOnboarding" />
+			
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_001_BorrowerDetails_ValidateCompanyBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_002_BorrowerDetails_ValidateCompanyBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_003_BorrowerDetails_UpdateAndValidateCompanyBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_004_BorrowerDetails_ValidateUpdatedCompanyBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_005_BorrowerDetails_UpdateAndValidateCompanyBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_006_BorrowerDetails_ValidateUpdatedCompanyBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_007_BorrowerDetails_AddAndValidateNewDetailsFromAdmin" />
+			
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_008_BorrowerDetails_ValidateNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_009_BorrowerDetails_UpdateAndValidateNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_010_BorrowerDetails_ValidateUpdatedNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_011_BorrowerDetails_UpdateAndValidateNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_012_BorrowerDetails_ValidateUpdatedNewDetailsFromDashboard" />
+			
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_013_BorrowerDetails_DeleteAndValidateNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_014_BorrowerDetails_ValidateDeletedNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_015_BorrowerDetails_DeleteAndValidateNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_016_BorrowerDetails_ValidateDeletedNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_017_BorrowerDetails_AddAndValidateNewDetailsFromDashboard" />
+			
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_018_BorrowerDetails_ValidateNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_019_BorrowerDetails_UpdateAndValidateNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_020_BorrowerDetails_ValidateUpdatedNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_021_BorrowerDetails_UpdateAndValidateNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_023_BorrowerDetails_DeleteAndValidateNewDetailsFromDashboard" />
+			
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_024_BorrowerDetails_ValidateDeletedNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_025_BorrowerDetails_DeleteAndValidateNewDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_026_BorrowerDetails_ValidateDeletedNewDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_027_BorrowerDetails_DeleteAndValidateNewDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_028_BorrowerDetails_ValidateDeletedBorrowerDetailsFromAdmin" />
+			
+	</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test2">
+		<classes>
+		    <class name="com.automationsaas.test.borrower.borroweronboarding.TC_002_BorrowerOnboarding_CompanyBorrowerOnboarding" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_029_BorrowerDetails_DeleteAndValidateOldCompanyBorrowerDetailsFromAdmin" />
+			<class name="com.automationsaas.test.borrower.borrowerdetails_companyborrower.TC_030_BorrowerDetails_ValidateDeletedOldCompanyBorrowerDetailsFromDashboard" />
+
+</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

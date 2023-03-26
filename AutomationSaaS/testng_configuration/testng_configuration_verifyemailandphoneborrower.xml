@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_001_BorrowerOnboarding_IndividualBorrowerOnboarding" />
+			<class name="com.automationsaas.test.configuration.verifyemailandphone.TC_002_VerifyEmailAndPhone_VerifyEmailAndPhoneForBorrower" />
+			<class name="com.automationsaas.test.configuration.verifyemailandphone.TC_003_VerifyEmailAndPhone_ValidateIfEmailAndPhoneForBorrowerIsVerified" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

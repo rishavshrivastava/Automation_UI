@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_001_RolesAndPermissions_DisableLoanApplicationModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_002_RolesAndPermissions_ValidateDisabledLoanApplication" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_003_RolesAndPermissions_EnableLoanApplicationModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_004_RolesAndPermissions_ValidateEnabledLoanApplication" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_005_RolesAndPermissions_DisableAdminDSAModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_006_RolesAndPermissions_ValidateDisabledDSA" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_007_RolesAndPermissions_EnableAdminDSAModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_008_RolesAndPermissions_ValidateEnabledDSA" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_009_RolesAndPermissions_DisableAdminInvestorModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_010_RolesAndPermissions_ValidateDisabledInvestor" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_011_RolesAndPermissions_EnableAdminInvestorModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_012_RolesAndPermissions_ValidateEnabledInvestor" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_013_RolesAndPermissions_DisableAdminBorrowerModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_014_RolesAndPermissions_ValidateDisabledBorrower" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_015_RolesAndPermissions_EnableAdminBorrowerModulePermission" />
+			<class name="com.automationsaas.test.configuration.rolesandpermissions.TC_016_RolesAndPermissions_ValidateEnabledBorrower" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_001_AddressDetails_ValidateIndividualBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_002_AddressDetails_ValidateIndividualBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_003_AddressDetails_DeleteAndValidateOldBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_004_AddressDetails_ValidateDeletedOldBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_005_AddressDetails_AddNewAddressAndValidateFromAdmin" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_006_AddressDetails_ValidateNewAddressDetailsFromDashboard" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_007_AddressDetails_UpdateNewlyAddedAddressAndValidateFromDashboard" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_008_AddressDetails_ValidateNewlyAddedAddressFromAdmin" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_009_AddressDetails_DeleteAddressFromAdminAndValidate" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_010_AddressDetails_ValidateDeletedAddressFromDashboard" />
+			<class name="com.automationsaas.test.borrower.addressdetails.TC_011_AddressDetails_AddNewAddressFromDashboardAndValidate" />
+		    <class name="com.automationsaas.test.borrower.addressdetails.TC_012_AddressDetails_ValidateNewlyAddedAddressFromAdmin" />
+		    <class name="com.automationsaas.test.borrower.addressdetails.TC_013_AddressDetails_UpdateNewlyAddedAddressAndValidateFromAdmin" />
+		    <class name="com.automationsaas.test.borrower.addressdetails.TC_014_AddressDetails_ValidatedUpdatedAddressFromDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

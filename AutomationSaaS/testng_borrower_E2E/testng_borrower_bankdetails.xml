@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_001_BankDetails_ValidateIndividualBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_002_BankDetails_ValidateIndividualBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_003_BankDetails_UpdateAndValidateBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_004_BankDetails_ValidateUpdatedBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_005_BankDetails_UpdateAndValidateBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_006_BankDetails_ValidateUpdatedBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_007_BankDetails_AddAndValidateNewBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_008_BankDetails_ValidateAddedNewBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_009_BankDetails_UpdateAndValidateNewBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_010_BankDetails_ValidateUpdatedNewBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_011_BankDetails_DeleteAndValidateNewBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_012_BankDetails_ValidateDeletedNewBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_013_BankDetails_DeleteAndValidateOldBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_014_BankDetails_ValidateDeletedOldBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_015_BankDetails_AddAndValidateNewBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_016_BankDetails_ValidateNewAddedBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_017_BankDetails_UpdateAndvalidateNewBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.bankdetails.TC_018_BankDetails_ValidateUpdatedNewBorrowerDetailsAdmin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

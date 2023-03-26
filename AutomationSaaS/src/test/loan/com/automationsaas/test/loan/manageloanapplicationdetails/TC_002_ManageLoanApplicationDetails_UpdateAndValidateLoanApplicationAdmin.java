@@ -1,0 +1,5 @@
+package com.automationsaas.test.loan.manageloanapplicationdetails;
+
+public class TC_002_ManageLoanApplicationDetails_UpdateAndValidateLoanApplicationAdmin {
+
+}

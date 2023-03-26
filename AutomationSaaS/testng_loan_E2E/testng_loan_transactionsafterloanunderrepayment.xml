@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.loan.transactionsafterloanunderrepayment.TC_001_TransactionsAfterLoanUnderRepayment_ValidateBorrowerTransactionFromAdminAfterRepayment" />
+			<class name="com.automationsaas.test.loan.transactionsafterloanunderrepayment.TC_002_TransactionsAfterLoanUnderRepayment_ValidateBorrowerTransactionFromBorrowerDashboardAfterRepayment" />
+			<class name="com.automationsaas.test.loan.transactionsafterloanunderrepayment.TC_003_TransactionsAfterLoanUnderRepayment_ValidateInvestorTransactionFromAdminAfterRepayment" />
+			<class name="com.automationsaas.test.loan.transactionsafterloanunderrepayment.TC_004_TransactionsAfterLoanUnderRepayment_ValidateInvestorTransactionFromInvestorDashboardAfterRepayment" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

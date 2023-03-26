@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="testng_loan/testng_loan_borrowercontract.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_borrowerquestiongroup.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_coapplicantdetails.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_disabledborrowerfields.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_disabledinvestorfields.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_insurancedetails.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_investorcontract.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanapproval.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanbid.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loancompleted.xml"></suite-file>
+		
+		<suite-file path="testng_loan/testng_loan_loandisbursal.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loaninauction.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanoverview.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanreject.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanrepaymentschedulewhenloanapproved.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanrepaymentschedulewhenloanunderrepayment.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_loanunderrepayment.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_manageloanapplicationdetails.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_otherloandetails.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_payemi.xml"></suite-file>
+		
+		<suite-file path="testng_loan/testng_loan_pdcmanagement.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_question.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_referencedetails.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_repayments.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_supportingdocuments.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_transactionsafterloandisbursal.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_transactionsafterloanunderrepayment.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_uploadloanfile.xml"></suite-file>
+		<suite-file path="testng_loan/testng_loan_vehicledetails.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Suite -->

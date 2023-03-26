@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_001_BorrowerOnboarding_IndividualBorrowerOnboarding" />
+			<class name="com.automationsaas.test.borrower.borrowerapproval.TC_001_BorrowerApproval_ApproveBorrowerAdmin" />
+			<class name="com.automationsaas.test.borrower.transactions.TC_007_Transactions_DepositAmountBorrowerDashboard" />
+			<class name="com.automationsaas.test.borrower.transactions.TC_008_Transactions_AcceptTransactionAdmin" />
+			<class name="com.automationsaas.test.loan.loanapproval.TC_001_LoanApproval_MoveLoanToApprovedAdmin" />
+			<class name="com.automationsaas.test.loan.loaninauction.TC_001_LoanInAuction_MoveLoanToInAuctionFromAdmin" />
+			<class name="com.automationsaas.test.investor.investoronboarding.TC_001_InvestorOnboarding_IndividualInvestorOnboarding" />
+			<class name="com.automationsaas.test.investor.investorapproval.TC_001_InvestorApproval_ApproveInvestor" />
+			<class name="com.automationsaas.test.investor.transactions.TC_005_Transactions_DepositAmountInvestorDashboard"/>
+		    <class name="com.automationsaas.test.investor.transactions.TC_006_Transactions_AcceptTransactionAdmin"/>
+		    <class name="com.automationsaas.test.configuration.verifyemailandphone.TC_004_VerifyEmailAndPhone_VerifyEmailAndPhoneForInvestor" />
+			<class name="com.automationsaas.test.loan.loanbid.TC_001_LoanBid_BidLoanFromInvestor" />
+			<class name="com.automationsaas.test.loan.loandisbursal.TC_001_LoanDisbursal_MoveLoanToDisbursedFromAdmin" />
+			<class name="com.automationsaas.test.loan.loanunderrepayment.TC_001_LoanUnderRepayment_MoveLoanToUnderRepayment" />
+			<class name="com.automationsaas.test.loan.loanunderrepayment.TC_002_LoanUnderRepayment_ValidateLoanFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.loanunderrepayment.TC_003_LoanUnderRepayment_ValidateLoanFromInvestorDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

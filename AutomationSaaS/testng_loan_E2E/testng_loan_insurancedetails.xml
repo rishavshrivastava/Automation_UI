@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_001_InsuranceDetails_ValidateLoanFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_002_InsuranceDetails_ValidateLoanFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_003_InsuranceDetails_DeleteAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_004_InsuranceDetails_ValidateDeletedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_005_InsuranceDetails_AddAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_006_InsuranceDetails_ValidateAddedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_007_InsuranceDetails_UpdateAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_008_InsuranceDetails_ValidateUpdatedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_009_InsuranceDetails_DeleteAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_010_InsuranceDetails_ValidateDeletedLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_011_InsuranceDetails_AddAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_012_InsuranceDetails_ValidateAddedLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_013_InsuranceDetails_UpdateAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.insurancedetails.TC_014_InsuranceDetails_ValidateUpdatedLoanDetailsFromBorrowerDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

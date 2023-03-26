@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.investor.investoronboarding.TC_001_InvestorOnboarding_IndividualInvestorOnboarding" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_001_AddressDetails_DeleteAndValidateOldInvestorDetailsAdmin" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_002_AddressDetails_ValidateDeletedOldInvestorDetailsDashboard" />
+            <class name="com.automationsaas.test.investor.addressdetails.TC_003_AddressDetails_AddNewAddressAndValidateFromAdmin" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_004_AddressDetails_ValidateNewAddressDetailsFromDashboard" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_005_AddressDetails_UpdateNewlyAddedAddressAndValidateFromDashboard" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_006_AddressDetails_ValidateUpdatedNewlyAddedAddressFromAdmin" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_007_AddressDetails_DeleteAddressFromAdminAndValidate" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_008_AddressDetails_ValidateDeletedAddressFromDashboard" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_009_AddressDetails_AddNewAddressFromDashboardAndValidate" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_010_AddressDetails_ValidateNewlyAddedAddressFromAdmin" />
+			<class name="com.automationsaas.test.investor.addressdetails.TC_011_AddressDetails_UpdateNewlyAddedAddressAndValidateFromAdmin" />
+		    <class name="com.automationsaas.test.investor.addressdetails.TC_012_AddressDetails_ValidatedUpdatedAddressFromDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

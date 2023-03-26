@@ -1,0 +1,20 @@
+{
+
+        "accountHolderName":"Rishav",
+	"accountNumber":"5684521256",
+	"accounType":"Savings",
+	"bankName":"SBI",
+	"IFSCCode":"SBIN999",
+        "bankAddress":"Testing",
+        "dateofopeningaccount_date":"01",
+	"dateofopeningaccount_month":"03",
+	"dateofopeningaccount_year":"2001",
+        "micrcode":"Test",
+        "branchname":"MICO",
+        "swiftcode":"Test",
+        "branchpincode":"452563",
+        "branchcity":"Bangalore",
+        "natureoffacility":"Online",
+        "bankdetailstextvariable1textbox":"Testing"
+
+}

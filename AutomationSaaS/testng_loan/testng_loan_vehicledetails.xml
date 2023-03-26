@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_001_BorrowerOnboarding_IndividualBorrowerOnboarding" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_001_VehicleDetails_ValidateLoanFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_002_VehicleDetails_ValidateLoanFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_003_VehicleDetails_DeleteAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_004_VehicleDetails_ValidateDeletedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_005_VehicleDetails_AddAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_006_VehicleDetails_ValidateAddedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_007_VehicleDetails_UpdateAndValidateLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_008_VehicleDetails_ValidateUpdatedLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_009_VehicleDetails_DeleteAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_010_VehicleDetails_ValidateDeletedLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_011_VehicleDetails_AddAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_012_VehicleDetails_ValidateAddedLoanDetailsFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_013_VehicleDetails_UpdateAndValidateLoanDetailsFromAdmin" />
+			<class name="com.automationsaas.test.loan.vehicledetails.TC_014_VehicleDetails_ValidateUpdatedLoanDetailsFromBorrowerDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

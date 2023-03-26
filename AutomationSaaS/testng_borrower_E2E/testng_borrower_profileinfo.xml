@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.borroweronboarding.TC_001_BorrowerOnboarding_IndividualBorrowerOnboarding" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_001_ProfileInfo_ValidateIndividualBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_002_ProfileInfo_ValidateIndividualBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_003_ProfileInfo_UpdateAndValidateBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_004_ProfileInfo_ValidateUpdatedBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_005_ProfileInfo_UpdateAndValidateBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.profileinfo.TC_006_ProfileInfo_ValidateUpdatedBorrowerDetailsAdmin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

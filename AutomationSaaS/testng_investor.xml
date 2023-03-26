@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="testng_investor/testng_investor_investoronboarding.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_addressdetails.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_investordetails.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_employmenthistory.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_profileinfo.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_transactions.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_bankdetails.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_creditanswers.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_supportingdocuments.xml"></suite-file>
+		<suite-file path="testng_investor/testng_investor_investorapproval.xml"></suite-file>
+		<suite-file path="testng_investor/testng_borrower_investoronboarding_ValidateMandatoryFields.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Suite -->

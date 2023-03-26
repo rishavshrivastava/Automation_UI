@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<suite-files>
+		<!-- Please don't change the flow otherwise it will impact the whole execution -->
+		<!-- Dependent Flow -->
+		<suite-file path="testng_borrower/testng_borrower_borroweronboarding_Individual.xml"></suite-file>
+		<suite-file path="testng_borrower_E2E/testng_borrower_borrowerdetails.xml"></suite-file>
+		<suite-file path="testng_borrower_E2E/testng_borrower_employmenthistoryinfo.xml"></suite-file>
+		<suite-file path="testng_borrower_E2E/testng_borrower_addressdetails.xml"></suite-file>
+		<suite-file path="testng_borrower_E2E/testng_borrower_bankdetails.xml"></suite-file>
+		<suite-file path="testng_borrower_E2E/testng_borrower_transactions.xml"></suite-file>
+		
+		<!-- Independent Flow -->
+		<suite-file path="testng_borrower/testng_borrower_profileinfo.xml"></suite-file>
+		<suite-file path="testng_borrower/testng_borrower_borrowerapproval.xml"></suite-file>
+	    <suite-file path="testng_borrower/testng_borrower_borroweronboarding_Company.xml"></suite-file>
+	    <suite-file path="testng_borrower/testng_borrower_borrowerdetails_companyborrower.xml"></suite-file>
+    	<suite-file path="testng_borrower/testng_borrower_borroweronboarding_ValidateMandatoryFields.xml"></suite-file>
+	
+	</suite-files>
+</suite> <!-- Suite -->

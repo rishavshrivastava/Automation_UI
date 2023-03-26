@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.validatedsa.TC_01_DSAOnboarding" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_001_BankDetails_ValidateDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_002_BankDetails_ValidateDsaDetailsAdmin" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_003_BankDetails_UpdateAndValidateDsaDetailsAdmin" />
+			
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_004_BankDetails_ValidateUpdatedDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_005_BankDetails_UpdateAndValidateDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_006_BankDetails_ValidateUpdatedDsaDetailsAdmin" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_007_BankDetails_AddAndValidateNewDsaDetailsAdmin" />
+			
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_008_BankDetails_ValidateAddedNewDsaDetailsDashboard" />
+            <class name="com.automationsaas.test.dsa.bankdetails.TC_009_BankDetails_UpdateAndValidateNewDsaDetailsAdmin" />
+			
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_010_BankDetails_ValidateUpdatedNewDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_011_BankDetails_DeleteAndValidateNewDsaDetailsAdmin" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_012_BankDetails_ValidateDeletedNewDsaDetailsDashboard" />
+			
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_013_BankDetails_DeleteAndValidateOldDsaDetailsAdmin" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_014_BankDetails_ValidateDeletedOldDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_015_BankDetails_AddAndValidateNewDsaDetailsDashboard" />
+			
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_016_BankDetails_ValidateNewAddedDsaDetailsAdmin" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_017_BankDetails_UpdateAndvalidateNewDsaDetailsDashboard" />
+			<class name="com.automationsaas.test.dsa.bankdetails.TC_018_BankDetails_ValidateUpdatedNewDsaDetailsAdmin" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

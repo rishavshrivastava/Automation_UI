@@ -1,0 +1,19 @@
+{
+	"title":"Mr",
+	"firstName":"Rishav",
+	"lastName":"Shrivastava",
+	"borrowerType":"Individual",
+	"profileStatus":"COMPLETED",
+	"jobType":"Permanent",
+	"amountToBeInvested":"Rs50,000",
+	"accountBalance":"Rs0",
+	
+	"serialNo":"1",
+	"addressType":"Address",
+	"line1":"Line1",
+	"line2":"Line2",
+	"line3":"Line3",
+	"city":"Bangalore",
+	"state":"Karnataka",
+	"pincode":"560090"
+}

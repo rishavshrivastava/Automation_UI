@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.validatedsa.TC_01_DSAOnboarding" />
+			<class name="com.automationsaas.test.validatedsa.TC_02_ValidateDSADashboard" />
+			<class name="com.automationsaas.test.validatedsa.TC_02a_ValidateDSAEmailAndPhoneNumberLink" />
+			<class name="com.automationsaas.test.validatedsa.TC_03_ValidateDSaAdmin" />
+		    <class name="com.automationsaas.test.validatedsa.TC_04_UpdateDSAAdmin" />
+		
+			<class name="com.automationsaas.test.validatedsa.TC_05_ValidateUpdatedDSAFromDashboard" />
+			<class name="com.automationsaas.test.validatedsa.TC_06_UpdateDSADashboard" />
+			<class name="com.automationsaas.test.validatedsa.TC_07_ValidateUpdatedDSAFromAdmin" />
+			<class name="com.automationsaas.test.validatedsa.TC_07a_ValidateDSAShouldNotAbleToApplyLoanWithoutApproveFromAdmin" />
+            <class name="com.automationsaas.test.validatedsa.TC_08_ApproveDSA" />
+			
+			<class name="com.automationsaas.test.validatedsa.TC_08a_ValidateIfDSAFieldsAreDisabled" />
+			<class name="com.automationsaas.test.validatedsa.TC_08b_ValidateDSAAcceptRejectContract" />
+			<class name="com.automationsaas.test.validatedsa.TC_09_DSAApplyNewLoanForIndividualBorrower" />
+			<class name="com.automationsaas.test.validatedsa.TC_10_DSAApplyNewLoanForCompanyBorrower" />
+			<class name="com.automationsaas.test.validatedsa.TC_11_DSAApplyLoanForExistingBorrower" />
+			<class name="com.automationsaas.test.validatedsa.TC_12_DSAUploadDownloadDeleteContractFromAdmin" />
+		
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_01_DepositAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_02_RejectTransactionAdmin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_03_ValidateDepositAmountDSAFromAdminLogin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_04_ValidateDepositAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_05_DepositAmountDSADashboard" />
+			
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_06_AcceptTransactionAdmin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_07_ValidateDepositAmountDSAfromAdminlogin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_08_ValidateDepositAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_09_WithdrawAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_10_RejectTransactionAdmin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_11_ValidateWithdrawAmountDSAFromAdminSide" />
+			
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_12_ValidateWithdrawAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_13_WithdrawAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_14_AcceptTransactionAdmin" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_15_ValidateWithdrawAmountDSAFromAdminSide" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_16_ValidateWithdrawAmountDSADashboard" />
+			
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_17_DepositAmountInDSAFromAdminSide" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_18_ValidateDepositAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_19_WithdrawAmountDSAFromAdminSide" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_20_ValidateWithdrawAmountDSADashboard" />
+			<class name="com.automationsaas.test.validatetransactionsdsa.TC_21_DepositAmountFromDSADashboardIntoBorrowerWallet" />
+			
+			<class name="com.automationsaas.test.validatefia.TC_01_FIAOnboarding" />
+			<class name="com.automationsaas.test.validatefia.TC_02_ValidateFIADashboard" />
+			<class name="com.automationsaas.test.validatefia.TC_03_ValidateFIAAdmin" />
+			<class name="com.automationsaas.test.validatefia.TC_04_UpdateFIAAdmin" />
+			<class name="com.automationsaas.test.validatefia.TC_05_ValidateUpdatedFIAFromDashboard" />
+			<class name="com.automationsaas.test.validatefia.TC_06_UpdateAndValidateFIADetailsFromDashboard" />
+			<class name="com.automationsaas.test.validatefia.TC_07_ValidateUpdatedFIADetailsFromAdmin" />
+			<class name="com.automationsaas.test.validatefia.TC_08_ApproveFIAAdmin" />
+			<class name="com.automationsaas.test.validatefia.TC_09_AssignLoanToFIA" />
+			<class name="com.automationsaas.test.validatefia.TC_10_ValidateAssignedLoansFromAdmin" />
+			<class name="com.automationsaas.test.validatefia.TC_11_ValidateAssignedLoanFromFIADashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

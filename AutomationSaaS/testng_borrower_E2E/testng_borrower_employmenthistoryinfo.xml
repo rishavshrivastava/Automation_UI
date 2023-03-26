@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_001_EmploymentHistoryInfo_ValidateIndividualBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_002_EmploymentHistoryInfo_ValidateIndividualBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_003_EmploymentHistoryInfo_UpdateAndValidateBorrowerDetailsAdmin" />
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_004_EmploymentHistoryInfo_ValidateUpdatedBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_005_EmploymentHistoryInfo_UpdateAndValidateBorrowerDetailsDashboard" />
+			<class name="com.automationsaas.test.borrower.employmenthistoryinfo.TC_006_EmploymentHistoryInfo_ValidateUpdatedBorrowerDetailsAdmin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

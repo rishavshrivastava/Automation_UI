@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.validatedsa.TC_01_DSAOnboarding" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_001_AddressDetails_DeleteAndValidateOldDSADetailsAdmin" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_002_AddressDetails_ValidateDeletedOldDSADetailsDashboard" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_003_Addressdetails_AddNewAddressAndValidateFromAdmin" />
+			
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_004_Addressdetails_ValidateNewAddressDetailsFromDashboard" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_005_Addressdetails_UpdateNewlyAddedAddressAndValidateFromDashboard" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_006_Addressdetails_ValidateNewlyAddedAddressFromAdmin" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_007_Addressdetails_DeleteAddressFromAdminAndValidate" />
+			
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_008_Addressdetails_ValidateDeletedAddressFromDashboard" />
+            <class name="com.automationsaas.test.validatedsa.addressdetails.TC_009_Addressdetails_AddNewAddressFromDashboardAndValidate" />
+			
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_010_Addressdetails_ValidateNewlyAddedAddressFromAdmin" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_011_Addressdetails_UpdateNewlyAddedAddressAndValidateFromAdmin" />
+			<class name="com.automationsaas.test.validatedsa.addressdetails.TC_012_Addressdetails_ValidatedUpdatedAddressFromDashboard" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

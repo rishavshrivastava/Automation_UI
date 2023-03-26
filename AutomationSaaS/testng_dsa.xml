@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<suite-files>
+		<suite-file path="testng_dsa/testng_dsa_1.xml"></suite-file>
+		<suite-file path="testng_dsa/testng_validatedsa_addressdetails.xml"></suite-file>
+		<suite-file path="testng_dsa/testng_dsa_bankdetails.xml"></suite-file>
+		
+		</suite-files>
+</suite> <!-- Suite -->

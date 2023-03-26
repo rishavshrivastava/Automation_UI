@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.borrower.transactions.TC_007_Transactions_DepositAmountBorrowerDashboard" />
+			<class name="com.automationsaas.test.borrower.transactions.TC_008_Transactions_AcceptTransactionAdmin" />
+			<class name="com.automationsaas.test.loan.loaninauction.TC_001_LoanInAuction_MoveLoanToInAuctionFromAdmin" />
+			<class name="com.automationsaas.test.loan.loaninauction.TC_002_LoanInAuction_ValidateLoanFromBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.loaninauction.TC_003_LoanInAuction_ValidateLoanFromInvestorDashboard" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

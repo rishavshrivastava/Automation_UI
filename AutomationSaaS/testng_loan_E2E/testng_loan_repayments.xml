@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automationsaas.utilities.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automationsaas.test.loan.repayments.TC_001_Repayments_IndividualBorrowerOnboardingWithFlatRepayment" />
+			<class name="com.automationsaas.test.loan.repayments.TC_002_Repayments_ValidateFlateRepaymentAdmin" />
+			<class name="com.automationsaas.test.loan.repayments.TC_003_Repayments_ValidateFlatRepaymentScheduleBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.repayments.TC_004_Repayments_IndividualBorrowerOnboardingWithFlatRateRepayment" />
+			<class name="com.automationsaas.test.loan.repayments.TC_005_Repayments_ValidateFlateRateRepaymentAdmin" />
+			<class name="com.automationsaas.test.loan.repayments.TC_006_Repayments_ValidateFlatRateRepaymentBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.repayments.TC_007_Repayments_IndividualBorrowerOnboardingWithHolidayFixedPrincipalRepayment" />
+			<class name="com.automationsaas.test.loan.repayments.TC_008_Repayments_ValidateHolidayFixedPrincipalRepaymentAdmin" />
+			<class name="com.automationsaas.test.loan.repayments.TC_009_Repayments_ValidateHolidayFixedPrincipalRepaymentBorrowerDashboard" />
+			<class name="com.automationsaas.test.loan.repayments.TC_010_Repayments_IndividualBorrowerOnboardingWithDailyBulletRepayment" />
+			<class name="com.automationsaas.test.loan.repayments.TC_011_Repayments_ValidateDailyBulletRepaymentAdmin" />
+			<class name="com.automationsaas.test.loan.repayments.TC_012_Repayments_ValidateDailyBulletRepaymentBorrowerDashboard" />		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
